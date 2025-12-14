@@ -1,0 +1,13 @@
+streamlit==1.25.0
+elasticsearch==7.17.0
+urllib3==2.2.3
+requests==2.32.4
+pandas==1.5.3
+numpy==1.24.4
+networkx==3.1
+pyvis==0.3.2
+pydot==4.0.1
+altair==5.4.1
+dateutil==2.8.2
+pyarrow==17.0.0
+

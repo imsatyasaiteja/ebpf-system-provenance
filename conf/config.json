@@ -1,0 +1,9 @@
+{
+  "events_dir": "/home/student/system-auditing-tester/ebpf_out/",
+  "output_dir": "/home/student/system-auditing-tester/ebpf_out/",
+  "es_host": "http://127.0.0.1:9200",
+  "es_index": "ebpf-events",
+  "es_user": "elastic",
+  "es_password": "changeme",
+  "batch_size": 500
+}

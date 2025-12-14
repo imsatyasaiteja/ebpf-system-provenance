@@ -1,0 +1,6 @@
+ebpf_out/**
+*.pyc
+*.dot
+provenance_attack_*.png
+__pycache__/
+claude/
