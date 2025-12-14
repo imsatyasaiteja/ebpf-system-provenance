@@ -284,3 +284,11 @@ export OLLAMA_HOST="http://127.0.0.1:11434"
 - `run-attack.sh` – Example attack script to generate interesting telemetry.
 
 With these components running together, you get a full pipeline from kernel-level telemetry to interactive provenance graphs and AI-assisted explanations of complex attacks.
+
+---
+
+## Project Variants and Credits
+
+This repository contains the Streamlit- and CLI-based interface on top of the shared eBPF monitoring and provenance analysis core.
+
+A companion version of this project, featuring a different user interface and additional refinements to the shared core, is being actively developed by my teammate [Amish](https://github.com/Vulcanite) in the public `system-provenance` repository. Feel free to explore and contribute.
