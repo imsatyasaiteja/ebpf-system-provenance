@@ -1,7 +1,7 @@
 # eBPF Forensic Monitor  
 This project builds a eBPF-based forensic monitoring system that captures kernel-level system activity, stores it in Elasticsearch, and applies advanced provenance analysis (HOLMES backward slicing + BEEP burst compression) to reconstruct an attack chain from noisy logs. A fully interactive Streamlit dashboard visualizes raw events, statistics, and an attack provenance graph, while a built-in AI engine (Ollama LLM) produces MITRE ATT&CK–aligned summaries explaining how the attack unfolded. The system includes an attack simulation script, a CLI for offline forensics, and a seamless workflow for monitoring, analyzing, and understanding live attacks end-to-end.
 
-### **Real-Time Monitoring - Provenance Graphs - Noise Reduction (BEEP + HOLMES) - AI Attack Analysis**
+### **Forensic Monitor - Noise Reduction (BEEP + HOLMES) - AI Provenance Analysis**
 
 <img src="./assets/ollama_setup.png" width="90%"/>
 <img src="./assets/prov_exp.png" width="90%"/>
